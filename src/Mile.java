@@ -1,12 +1,9 @@
 public class Mile {
     public static void main(String[] args) {
-        float ticketPrice = 540;
-        float mile = 0;
-        if (ticketPrice >= 20) {
-            mile = ticketPrice / 20;
-        } else {
-            mile = 0;
-        }
+        int ticketPrice = 540;
+        int mile = 0;
+        mile = ticketPrice / 20;
+
         System.out.println(mile);
     }
 }
