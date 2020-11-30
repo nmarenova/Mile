@@ -1,9 +1,14 @@
+class BonusMilesService {
+    public int calculate(int cost) {
+        return cost / 20;
+    }
+}
+
 public class Mile {
     public static void main(String[] args) {
-        int ticketPrice = 540;
-        int mile = 0;
-        mile = ticketPrice / 20;
-
-        System.out.println(mile);
+        BonusMilesService service = new BonusMilesService();
+        int price = 10_000;
+        int miles = service.calculate(price);
+        System.out.println(miles);
     }
 }
