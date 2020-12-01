@@ -1,9 +1,3 @@
-class BonusMilesService {
-    public int calculate(int cost) {
-        return cost / 20;
-    }
-}
-
 public class Mile {
     public static void main(String[] args) {
         BonusMilesService service = new BonusMilesService();
